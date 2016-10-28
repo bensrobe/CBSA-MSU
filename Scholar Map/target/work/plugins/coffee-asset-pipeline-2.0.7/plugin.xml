@@ -1,0 +1,9 @@
+<plugin name='coffee-asset-pipeline' version='2.0.7' grailsVersion='2.2 &gt; *'>
+  <author>David Estes</author>
+  <authorEmail>destes@bcap.com</authorEmail>
+  <title>CoffeeScript Asset-Pipeline Plugin</title>
+  <description>Provides coffee-script support for the asset-pipeline static asset management plugin.</description>
+  <documentation>http://github.com/bertramdev/coffee-grails-asset-pipeline</documentation>
+  <type>CoffeeAssetPipelineGrailsPlugin</type>
+  <resources />
+</plugin>

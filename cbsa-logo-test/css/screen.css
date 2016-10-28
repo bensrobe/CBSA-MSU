@@ -11,7 +11,7 @@ h1 {
  	font-style: normal;
     font-size: 20px;
 }
-	
+
 
 body {
   /* #ccc is shorthand HEX for a light grey */
@@ -37,6 +37,7 @@ header {
 .main .section-1 {
   float: left;
   width: 900px;
+	margin: 0 auto;
 }
 .main .section-2 {
   float: right;
@@ -50,14 +51,15 @@ h2 {
 }
 
 .CBSA-logo {
-  width:900px;	
+  width: 853px;
   display: inline-block;
-  text-align: center;
-  margin: auto 0;
+	background: #18453B;
+	border: 3px solid #18453B;
+	box-shadow: 8px 8px 5px #888888;
 }
 
 .CBSA-logo-mini {
-  width:278px;	
+  width:278px;
   display: inline-block;
   text-align: center;
   margin: auto 0;

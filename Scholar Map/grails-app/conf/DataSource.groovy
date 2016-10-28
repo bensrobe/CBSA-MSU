@@ -22,7 +22,7 @@ environments {
             pooled = true
             driverClassName = "com.mysql.jdbc.Driver"
             username = "root"
-            password = ""
+            password = "test-pass"
             url = "jdbc:mysql://localhost:3306/csst_v2"
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             properties {

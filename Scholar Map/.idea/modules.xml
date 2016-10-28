@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scholar Map.iml" filepath="$PROJECT_DIR$/.idea/modules/Scholar Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scholar Map.iml" filepath="$PROJECT_DIR$/Scholar Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scholar Map-grailsPlugins.iml" filepath="$PROJECT_DIR$/Scholar Map-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
