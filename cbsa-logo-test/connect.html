@@ -6,83 +6,68 @@
         <title>Connect</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <!-- External link (relative) to your main stylesheet -->
         <link rel="stylesheet" href="css/screen.css">
-
         <!-- External link (relative) to your javascript file -->
-        <script src="js/index.js"></script>
-        
+        <script src="js/index.js"></script>    
     </head>
     <body>
       <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
+		  <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+          	}(document, 'script', 'facebook-jssdk'));
+          </script>
       <header>
-        <div id="masthead-logo">
+      	<div id="masthead-logo">
           <img src="images/masthead-helmet-white.png" alt="MSU masthead logo" />
         </div>
-
         <div id="search-tool-box">
       	<!-- if you are using u.search.msu.edu use the following form values -->
       	<!-- action should be equal to //u.search.msu.edu/index.php when using u.search.msu.edu -->
-
-      	<form>
-        	<input id="q" placeholder="Search..."/>
-        	<input id="btn_search" type="submit" value=""/>
-      	</form>
+            <form>
+                <input id="q" placeholder="Search..."/>
+                <input id="btn_search" type="submit" value=""/>
+            </form>
         </div>
       </header>
-		<h1>CENTER FOR BUSINESS AND SOCIAL ANALYTICS</h1>
+      <h1>CENTER FOR BUSINESS AND SOCIAL ANALYTICS</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="connect.html">Connect</a></li>
-          <li><a href="#students">Students</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#about_us.html">About Us</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="affiliated_faculty.html">Affiliated Faculty</a></li>
+          <li><a href="about_us.html">About Us</a></li>
         </ul>
       </nav>
-
       <section>
-
-
         <div class="main">
          <div class="section-1">
-           
-
-
-          </div>
-          <div class="section-2">
-          <div class="CBSA-logo-mini">
+           <div class="CBSA-logo-right">
              <div id="imageC"></div>
              <div id="imageB"></div>
              <div id="imageS"></div>
              <div id="imageA"></div>
            </div>
-
-
+           <br>
+           <h2>Connect</h2>
+           <hr>
+            
          <script type="text/javascript">
              doC();
              doB();
              doS();
              doA();
          </script>
-          <h2>Facebook</h2>
-          <hr>
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fspartans.msu%2F%3Ffref%3Dts&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="278" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-          <h2>Twitter</h2>
-          <hr>
-          <div class="pane-content">
-          <div><a class="twitter-timeline" data-chrome="noheader nofooter" data-widget-id="679353626129747969" height="375" href="https://twitter.com/michiganstateu">Tweets by @michiganstateu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-          </div>
-
+         </div>
+         <div class="section-2">
+         	
+              </div>
           </div>
         </div>
       </section>
