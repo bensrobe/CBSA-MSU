@@ -47,7 +47,7 @@ body {
 }
 
 header {
-  margin: 0 100px 0 100px;
+  margin: 0 7% 0 7%;
   background: #18453B;
   padding: 20px 0 20px 0;
 }
@@ -64,7 +64,7 @@ header {
 .main {
   padding: 25px;
   overflow: hidden;
-  margin: 0 100px 0 100px;
+  margin: 0 7% 0 7%;
   background:#CFCFCF;
 }
 .main .section-1 {
@@ -181,7 +181,7 @@ nav ul {
   background-color: #97A2A2;
 }
 nav {
-  margin: 0 120px 0 100px;
+  margin: 0 8.4% 0 7%;
 }
 
 
