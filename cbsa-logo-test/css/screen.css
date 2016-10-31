@@ -12,6 +12,30 @@ h1 {
     font-size: 20px;
 }
 
+h2 {
+	text-align:center;
+	color: #18453B;
+    margin-top: 5px;
+    margin-bottom: 0;
+	padding: 30px 0 10px 0;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  	font-weight: 400;
+ 	font-style: normal;
+    font-size: 30px;
+}
+
+a {
+	padding: 10px 0 10px 0;
+	color:#18453B;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  	font-weight: 400;
+ 	font-style: normal;
+    font-size: 15px;
+}
+
+a:hover {
+	color:#000000;
+}
 
 body {
   /* #ccc is shorthand HEX for a light grey */
@@ -28,41 +52,42 @@ header {
   padding: 20px 0 20px 0;
 }
 
+.welcome-info {
+	padding: 10px 0 10px 0;
+	color:#000000;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  	font-weight: 400;
+ 	font-style: normal;
+    font-size: 15px;
+}
+
 .main {
   padding: 25px;
   overflow: hidden;
   margin: 0 100px 0 100px;
-  background: #ccc;
+  background:#CFCFCF;
 }
 .main .section-1 {
-  float: left;
-  width: 900px;
+  width: 1100px;
 	margin: 0 auto;
-}
-.main .section-2 {
-  float: right;
-  width: 250px;
-}
-
-h2 {
-  color: #18453B;
-  margin-top: 5px;
-  margin-bottom: 0;
 }
 
 .CBSA-logo {
-  width: 853px;
-  display: inline-block;
+ 	width: 853px;
+  	display: block;
+	margin: 0 auto;
 	background: #18453B;
 	border: 3px solid #18453B;
 	box-shadow: 8px 8px 5px #888888;
 }
 
-.CBSA-logo-mini {
-  width:278px;
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
+.CBSA-logo-right {
+ 	width: 853px;
+  	display: block;
+	margin: 0 auto;
+	background: #18453B;
+	border: 3px solid #18453B;
+	box-shadow: 8px 8px 5px #888888;
 }
 
 #imageC {
@@ -167,7 +192,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: #535054;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -543,6 +568,7 @@ If the margin is set differently for your site, fix the margin here to reflect t
 }
 
 #MSUstandardFooter.light-background #standard-footer-MSU-info a, #MSUstandardFooter.light-background #standard-footer-MSU-info .msu-phone {
+	font-size: 0.5625rem;
     color: #4c7e00;    /* V2.0 */
 }
 
@@ -551,6 +577,7 @@ If the margin is set differently for your site, fix the margin here to reflect t
 }
 
 #MSUstandardFooter.dark-background #standard-footer-MSU-info a, #MSUstandardFooter.dark-background #standard-footer-MSU-info .msu-phone {
+	font-size: 0.5625rem;
     color: #81d300;     /* V2.0 */
 }
 
