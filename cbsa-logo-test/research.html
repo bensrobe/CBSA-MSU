@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Research</title>
+        <title>Research | Center for Business and Social Analytics</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- External link (relative) to your main stylesheet -->
@@ -35,28 +35,69 @@
         </div>
       </header>
       <h1>CENTER FOR BUSINESS AND SOCIAL ANALYTICS</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="connect.html">Connect</a></li>
-          <li><a href="students.html">Students</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="affiliated_faculty.html">Affiliated Faculty</a></li>
-          <li><a href="about_us.html">About Us</a></li>
-        </ul>
-      </nav>
+     <body>
+
+    <ul class="topnav" id="myTopnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="connect.html">Connect</a></li>
+      <li><a href="students.html">Students</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="affiliated_faculty.html">Affiliated Faculty</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+      </li>
+    </ul>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+    
+    </body>
       <section>
         <div class="main">
          <div class="section-1">
-           <div class="CBSA-logo-right">
-             <div id="imageC"></div>
-             <div id="imageB"></div>
-             <div id="imageS"></div>
-             <div id="imageA"></div>
-           </div>
+           <div class="logo-format">
+			  <div class="CBSA-logo">
+				<div id="imageC"></div>
+				<div id="imageB"></div>
+				<div id="imageS"></div>
+				<div id="imageA"></div>
+			  </div>
+			</div>
            <br>
            <h2>Research</h2>
            <hr>
+           
+           <a href="https://www.lib.msu.edu/about/data/" target="_blank"><h3>MSU Libraries Data Services</h3></a>
+           <p>Data is a critical resource in analytics research.  The MSU Libraries provide a wide range of essential services across the entire research lifecycle.</p>
+           
+           <a href="https://icer.msu.edu/" target="_blank"><h3>iCER  (Institute for Cyber-Enabled Research)</h3></a>
+           <p>iCER operates the MSU High Performance Computing Center and offers a fantastic line-up of seminars and workshops: <a href="https://icer.msu.edu/upcoming-workshops" target="_blank">https://icer.msu.edu/upcoming-workshops</a></p>
+           
+           <a href="https://www.cstat.msu.edu/" target="_blank"><h3>CSTAT (Center for Statistical Training and Consulting)</h3></a>
+           <p>CSTAT offers on-going consulting, training and workshops on a wide range of topics: <a href="https://www.cstat.msu.edu/workshops/upcoming.aspx" target="_blank">https://www.cstat.msu.edu/workshops/upcoming.aspx</a></p>
+           
+           <a href="http://digitalhumanities.msu.edu/"target="_blank"><h3>Digital Humanities</h3></a>
+           <p>Digital Humanities is vibrant area at MSU, offering a program of events and coordinating a set of related programs and centers, such as:</p>
+           
+           <ul>
+           	<li>    <a href="http://matrix.msu.edu/" target="_blank">MATRIX (Center for Digital Humanities and Social Sciences)</a></li>
+			<li>    <a href="http://leadr.msu.edu/" target="_blank">LEADR (Lab for the Education and Advancement in Digital Research)</a></li>
+           	<li>	<a href="http://wide.cal.msu.edu/" target="_blank">WIDE (Writing, Information and the Digital Experience)</a></li>
+           </ul>
+           
+            <a href="http://ssda.msu.edu/" target="_blank"><h3>SSDA (Social Science Data Analytics)</h3></a>
+           <p>SSDA helps to connect researchers in social science to the impressive computational infrastructure at MSU.  They are located in 319 Nisbett.</p>
+           
+            <a href="http://msudatascience.com/" target="_blank"><h3>MSU Data Science Club</h3></a>
+           <p>The Data Science Club is a student organization open to any MSU student. Check out the amazing drone view of the MSU campus on their home page!</p>
             
          <script type="text/javascript">
              doC();
